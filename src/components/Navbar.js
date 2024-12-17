@@ -8,7 +8,17 @@ const NavbarComponent=()=>{
   const links = [
     { label: 'Home', path: '/' },
     { label: 'About', path: '/about' },
+    { label: 'Projects', path: '/projects' },
+    { label: 'Skills', path: '/skills' },
+    { label: 'Experience', path: '/experience' },
+    { label: 'Services', path: '/services' },
+    
+
+
+
     { label: 'Contact', path: '/contact' },
+    
+
 
   ];
 
@@ -26,6 +36,7 @@ const NavbarComponent=()=>{
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+      
     );
 };
 export default NavbarComponent;
