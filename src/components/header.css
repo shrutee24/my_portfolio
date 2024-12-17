@@ -1,0 +1,152 @@
+body {
+    color: #666666;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background: #ffffff;
+}
+
+a {
+    color: #AF9483;
+    transition: 0.5s;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #666666;
+    outline: none;
+    text-decoration: none;
+}
+
+p {
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Solway', serif;
+    color: #666666;
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: #AF9483;
+    color: #ffffff;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 50%;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 11;
+}
+
+.back-to-top i {
+    padding-top: 12px;
+    color: #ffffff;
+}
+
+
+/* ============================= */
+/* ------ Top Header CSS ------- */
+/* ============================= */
+
+.top-header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: #ffffff;
+}
+
+.top-header:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url('../coffee_cup.jpg') left top repeat;
+    background-size: cover;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    z-index: -1;
+}
+
+.top-header .container {
+    position: relative;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.top-header img {
+    height: 200px;
+    margin-bottom: 30px;
+    border: 15px solid rgba(256, 256, 256, .1);
+}
+
+.top-header h1 {
+    font-size: 5vw;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.top-header p {
+    display: none;
+}
+
+.top-header h2 {
+    display: inline-block;
+    margin: 0;
+    height: 40px;
+    font-size: 3vw;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.top-header .typed-cursor {
+    font-size: 3vw;
+}
+
+
+
+
+.typewriter {
+    overflow: hidden; /* Ensures the text is hidden until it appears */
+    border-right: 3px solid; /* Creates a cursor effect */
+    white-space: nowrap; /* Prevents text wrapping */
+    margin: 0 auto; /* Centers the text */
+    letter-spacing: 2px; /* Optional: adds space between letters */
+    animation: typing 4s steps(20, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0; /* Start with no width */
+    }
+    to {
+        width: 100%; /* Expand to full width */
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent; /* Hide the border */
+    }
+    50% {
+        border-color: black; /* Show the border at 50% */
+    }
+}
