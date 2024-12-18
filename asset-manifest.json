@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/shrutee24/my_portfolio.git/static/css/main.4206667b.css",
+    "main.js": "/shrutee24/my_portfolio.git/static/js/main.684c82f0.js",
+    "static/js/453.ed3810f9.chunk.js": "/shrutee24/my_portfolio.git/static/js/453.ed3810f9.chunk.js",
+    "static/media/coffee_cup.jpg": "/shrutee24/my_portfolio.git/static/media/coffee_cup.131e623510d566e23be2.jpg",
+    "static/media/logo.svg": "/shrutee24/my_portfolio.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/shrutee24/my_portfolio.git/index.html",
+    "main.4206667b.css.map": "/shrutee24/my_portfolio.git/static/css/main.4206667b.css.map",
+    "main.684c82f0.js.map": "/shrutee24/my_portfolio.git/static/js/main.684c82f0.js.map",
+    "453.ed3810f9.chunk.js.map": "/shrutee24/my_portfolio.git/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4206667b.css",
+    "static/js/main.684c82f0.js"
+  ]
+}
