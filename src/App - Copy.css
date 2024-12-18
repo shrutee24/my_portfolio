@@ -1,0 +1,203 @@
+.App {
+  text-align: center;
+}
+conflict of merge
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+/* ============================= */
+/* ------- skillsMe CSS -------- */
+/* ============================= */
+
+.skills{
+  padding: 60px 0 15px 0;
+  position: relative;
+}
+
+.skills.row {
+  margin-bottom: 30px;
+}
+
+.skillsimg {
+  width: 100%;
+}
+
+.skillsh3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.skillsh4 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.skillsp {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.skillsa {
+  display: inline-block;
+  padding: 6px 20px;
+  color: #AF9483;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border: 1px solid #AF9483;
+}
+
+.skillsa:hover {
+  color: #ffffff;
+  background: #AF9483;
+}
+
+.skills.skills h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #666666;
+  margin-bottom: 15px;
+}
+
+.skills.skill-name {
+  position: relative;
+  width: 100%;
+}
+
+.skills.skill-name p {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.skills.skill-name p:last-child {
+  float: right;
+}
+
+.skills.progress {
+  margin-bottom: 15px;
+  border-radius: 0;
+}
+
+.skills.progress .progress-bar {
+  background: #AF9483;
+  border-radius: 0;
+}
+
+/* ============================= */
+/* ------- Experience CSS ------ */
+/* ============================= */
+
+.experience {
+  position: relative;
+  padding: 0;
+}
+
+.experience .section-header p {
+  margin:0;
+}
+
+.experience .exp-column {
+  margin-top: 30px;
+  padding: 25px 30px;
+  background: #e9ecef;
+}
+
+.experience .exp-column::before {
+  position: absolute;
+  content: "";
+  height: 3px;
+  top: 30px;
+  right: 100%;
+  left: 15px;
+  background: #AF9483;
+}
+
+.experience .exp-column::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  bottom: 0;
+  right: 15px;
+  left: 100%;
+  background: #AF9483;
+}
+
+.experience .exp-column:hover::before {
+  transition: .3s;
+  right: 15px;
+}
+
+.experience .exp-column:hover::after {
+  transition: .3s;
+  left: 15px;
+}
+
+.experience .exp-date {
+  margin-bottom: 5px;
+  color: #666666;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.experience .exp-date span {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.experience .exp-company {
+  margin-bottom: 0;
+  color: #AF9483;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.experience .exp-designation {
+  margin-bottom: 10px;
+  color: #999999;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.experience .exp-detail {
+  margin-bottom: 0;
+}
