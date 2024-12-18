@@ -1,6 +1,6 @@
 
 import './App.css';
-import { BrowserRouter as Router, Routes , Route} from 'react-router-dom';
+// import { BrowserRouter as Router, Routes , Route} from 'react-router-dom';
 import NavbarComponent from './components/Navbar'; // Adjust if the file name is different
 import Home from './pages/Home'; // Example component
 import About from './pages/About'; // Example component
@@ -18,11 +18,12 @@ import HeaderComponent from './components/Header'; // Adjust if the file name is
 
 function App() {
   return (
-    <Router>
+    <>
+    {/* // <Router> */}
     <NavbarComponent />
     <HeaderComponent />
 
-    <Routes>
+    {/* <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/projects" element={<Projects />} />
@@ -34,7 +35,8 @@ function App() {
       <Route path="/services" element={<Services />} />
 
     </Routes>
-  </Router>
+  </Router> */}
+      </>
   );
 }
 
